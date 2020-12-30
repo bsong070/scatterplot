@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    background-color: grey;
+}
+
+#legend {
+    margin:20px;
+    text-align:center;
+    font-size:1.2rem;
+}
+
+#title{
+    font-size: 2rem;
+
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    margin-top:10px;
+}
